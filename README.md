@@ -2,9 +2,7 @@
 
 ## Description
 
-```
 Debounce My Function is a helper to transform any function passed in "debounced". Which means, the function passed will execute after X ms.
-```
 
 ## Usage
 

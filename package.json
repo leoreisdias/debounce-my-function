@@ -34,5 +34,13 @@
     "lib/**/*"
   ],
   "keywords": ["debounce", "settimeout", "function"],
-   "author": "Leonardo R. Dias"
+   "author": "Leonardo R. Dias",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoreisdias/excel-ent.git"
+  },
+  "homepage": "https://github.com/leoreisdias/excel-ent#readme",
+  "bugs": {
+    "url": "https://github.com/leoreisdias/excel-ent/issues"
+  }
 }
