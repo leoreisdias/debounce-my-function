@@ -1,6 +1,6 @@
 {
   "name": "@numpod/debounce-my-function",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -33,9 +33,13 @@
   "files": [
     "lib/**/*"
   ],
-  "keywords": ["debounce", "settimeout", "function"],
-   "author": "Leonardo R. Dias",
-   "repository": {
+  "keywords": [
+    "debounce",
+    "settimeout",
+    "function"
+  ],
+  "author": "Leonardo R. Dias",
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/leoreisdias/excel-ent.git"
   },
