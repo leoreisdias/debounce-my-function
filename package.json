@@ -29,5 +29,7 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "keywords": ["debounce", "settimeout", "function"],
+   "author": "Leonardo R. Dias"
 }
