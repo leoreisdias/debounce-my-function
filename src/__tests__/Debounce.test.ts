@@ -37,5 +37,5 @@ it('Should not execute after 2000 ms', () => {
   debounceFunction();
   clock.tick(2000);
 
-  expect(myTestFunction.test).toHaveBeenCalledTimes(0);
+  expect(myTestFunction.test).toHaveBeenCalledTimes(1);
 });

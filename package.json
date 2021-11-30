@@ -1,6 +1,6 @@
 {
   "name": "@numpod/debounce-my-function",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "Debounce any function passed to execute after X milliseconds",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsc",
     "test": "jest --config jestconfig.json",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",

@@ -1,5 +1,5 @@
 export const debaunceMyFunction =
-  (fn: Function, wait = 1000, time: any) =>
+  (fn: (...args: any) => any, wait = 1000, time: any) =>
   (...args: any) => {
     clearTimeout(time);
     time = setTimeout(() => {
