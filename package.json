@@ -41,10 +41,10 @@
   "author": "Leonardo R. Dias",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leoreisdias/excel-ent.git"
+    "url": "git+https://github.com/leoreisdias/debounce-my-function.git"
   },
-  "homepage": "https://github.com/leoreisdias/excel-ent#readme",
+  "homepage": "https://github.com/leoreisdias/debounce-my-function#readme",
   "bugs": {
-    "url": "https://github.com/leoreisdias/excel-ent/issues"
+    "url": "https://github.com/leoreisdias/debounce-my-function/issues"
   }
 }
