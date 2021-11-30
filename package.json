@@ -2,6 +2,9 @@
   "name": "@numpod/debounce-my-function",
   "version": "1.0.1",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Debounce any function passed to execute after X milliseconds",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
