@@ -1,5 +1,5 @@
 {
-  "name": "debounce-my-function",
+  "name": "@numpod/debounce-my-function",
   "version": "1.0.0",
   "license": "MIT",
   "description": "Debounce any function passed to execute after X milliseconds",
