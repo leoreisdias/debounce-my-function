@@ -6,17 +6,17 @@ Debounce My Function is a helper to transform any function passed in "debounced"
 
 ## Installation
 ```shell
-yarn add @numpod/debounce-my-function
+yarn add debounce-my-function
 
 or
 
-npm install @numpod/debounce-my-function --save
+npm install debounce-my-function --save
 ```
 
 ## Usage
 
 ```ts
-import { debounceMyFunction } from "@numpod/debounce-my-function";
+import { debounceMyFunction } from "debounce-my-function";
 
 const debouncedFunction = debounceMyFunction(yourFunction, 1000);
 
