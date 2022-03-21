@@ -1,5 +1,5 @@
 {
-  "name": "@numpod/debounce-my-function",
+  "name": "debounce-my-function",
   "version": "1.0.5",
   "license": "MIT",
   "publishConfig": {
