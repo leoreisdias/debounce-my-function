@@ -1,4 +1,4 @@
-import { debaunceMyFunction } from '../index';
+import { debounceMyFunction } from '../index';
 import * as sinon from 'sinon';
 
 let clock: any;
@@ -16,14 +16,14 @@ afterEach(() => {
 });
 
 it('Should not execute immediately', () => {
-  const debounceFunction = debaunceMyFunction(myTestFunction.test, 2000, null);
+  const debounceFunction = debounceMyFunction(myTestFunction.test, 2000, null);
 
   debounceFunction();
   expect(myTestFunction.test).toHaveBeenCalledTimes(0);
 });
 
 it('Should not execute after 1000 ms', () => {
-  const debounceFunction = debaunceMyFunction(myTestFunction.test, 2000, null);
+  const debounceFunction = debounceMyFunction(myTestFunction.test, 2000, null);
 
   debounceFunction();
   clock.tick(1000);
@@ -32,7 +32,7 @@ it('Should not execute after 1000 ms', () => {
 });
 
 it('Should not execute after 2000 ms', () => {
-  const debounceFunction = debaunceMyFunction(myTestFunction.test, 2000, null);
+  const debounceFunction = debounceMyFunction(myTestFunction.test, 2000, null);
 
   debounceFunction();
   clock.tick(2000);

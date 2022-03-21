@@ -1,5 +1,5 @@
-export const debaunceMyFunction =
-  (fn: (...args: any) => any, wait = 1000, time: any) =>
+export const debounceMyFunction =
+  (fn: (...args: any) => any, wait = 1000, time?: any) =>
   (...args: any) => {
     clearTimeout(time);
     time = setTimeout(() => {
